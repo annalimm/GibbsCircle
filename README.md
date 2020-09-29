@@ -3,3 +3,4 @@ using functional transformations of a uniform random variable.
 
 In short, code creates evenly spaced points in a circle by applying Gibbs sampling.
 
+![alt text](https://github.com/annalimm/Gibbs_circle/blob/master/RplotGRU-1.png)
