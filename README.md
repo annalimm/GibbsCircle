@@ -2,3 +2,4 @@ An example of the application of Gibbs sampling to the problem of modeling a sam
 using functional transformations of a uniform random variable. 
 
 In short, code creates evenly spaced points in a circle by applying Gibbs sampling.
+
