@@ -111,10 +111,14 @@ sampling <- function(start_samp, r, d, N_samling = 100, silent = T){
 }
 
 
-D = 0.9
+#D = 0.9
+#R = 1
+#N_POINTS = 2
+#N_SAMPLING = 1e4
+N_POINTS = 200
 R = 1
-N_POINTS = 2
-N_SAMPLING = 1e4
+D = 0.1
+N_SAMPLING = 100
 
   A = start(N_points = N_POINTS, r = R, d = D)
   plot(A[,1], A[,2], pch=16, ylim=c(-1,1), xlim=c(-1,1))
@@ -139,9 +143,13 @@ N_SAMPLING = 1e4
   p1
 #------------------
   STOP = 1e4
-  D = 1
+  #D = 1
+  #R = 1
+  #N = 2
+  #Nsamp = 100
+  N = 200
   R = 1
-  N = 2
+  D = 0.1
   Nsamp = 100
   
   nosamp_matr =start(N_points = N_POINTS, r = R, d = D)
